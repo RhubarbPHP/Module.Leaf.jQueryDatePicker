@@ -1,0 +1,29 @@
+{
+  "name": "rhubarbphp/module-leaf-jquery-date-picker",
+  "description": "A replacement view for the standard Leaf date control.",
+  "keywords": [
+    "mvp",
+    "presenter",
+    "leaf",
+    "rhubarb",
+    "php",
+    "framework"
+  ],
+  "homepage": "http://www.rhubarbphp.com/",
+  "license": "Apache-2.0",
+  "autoload": {
+    "psr-4": {
+      "Rhubarb\\Leaf\\Controls\\JqueryDatePicker": "src/"
+    }
+  },
+	"extra": {
+		"branch-alias": {
+			"dev-master": "1.0.0-dev"
+		}
+	},  
+  "require": {
+    "rhubarbphp/module-leaf": "^1.0.0",
+    "components/jquery": "*",
+    "components/jqueryui": "*"
+  }
+}
